@@ -1,0 +1,72 @@
+{
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaawqa7l34gmt6jqxxxawkkbh7upnsn5bntrphfxocost6jm56pj3jq",
+  "compute_availability_domain": "ZVCk:AP-TOKYO-1-AD-1",
+  "defined_tags": {
+    "CreationTracking": {
+      "Created": "2021-06-29T08:30:27.083Z",
+      "CreatorName": "oracleidentitycloudservice/praveen.bh.kumar@oracle.com",
+      "CreatorType": "user"
+    }
+  },
+  "display_name": "OCVS-Demo",
+  "esxi_hosts_count": 3,
+  "freeform_tags": {
+    "VMware": "VMware-2021-06-29T08:28:04"
+  },
+  "hcx_fqdn": "hcxmgr-ocvs-demo.sddc.nrt.oci.oraclecloud.com",
+  "hcx_initial_password": "Vdt.2cAtHGt13n479Gur",
+  "hcx_on_prem_key": "2109K-0NHDL-T8JD8-0M82H-9HJ1H_8404 (contact #oci_ocvs for usage)",
+  "hcx_on_prem_licenses": [
+    {
+      "activation_key": "2109K-0NHDL-T8JD8-0M82H-9HJ1H_8404 (contact #oci_ocvs for usage)",
+      "status": "AVAILABLE",
+      "system_name": null
+    },
+    {
+      "activation_key": "2109K-0NHDL-T8JD8-0M82H-9HJ1H_2727 (contact #oci_ocvs for usage)",
+      "status": "AVAILABLE",
+      "system_name": null
+    },
+    {
+      "activation_key": "2109K-0NHDL-T8JD8-0M82H-9HJ1H_5744 (contact #oci_ocvs for usage)",
+      "status": "AVAILABLE",
+      "system_name": null
+    }
+  ],
+  "hcx_private_ip_id": "ocid1.privateip.oc1.ap-tokyo-1.abxhiljritgz56flrh4fxjpfhqnylr4eup4tjsa3hlincgpovzamwfjj2dcq",
+  "hcx_vlan_id": "ocid1.vlan.oc1.ap-tokyo-1.amaaaaaap77apcqa74nh2pulehaeqrp3uxt4gr2lvuhgm6riurehnxbaqrqq",
+  "id": "ocid1.vmwaresddc.oc1.ap-tokyo-1.amaaaaaap77apcqaaa53sqwtop2ddmqsmsf4s3z532ezgwnfyxtmh4qhh3bq",
+  "initial_sku": "MONTH",
+  "instance_display_name_prefix": "OCVS-Demo",
+  "is_hcx_enabled": true,
+  "is_hcx_enterprise_enabled": false,
+  "is_hcx_pending_downgrade": false,
+  "lifecycle_state": "ACTIVE",
+  "nsx_edge_uplink1_vlan_id": "ocid1.vlan.oc1.ap-tokyo-1.amaaaaaap77apcqas6xwcddt5hmp6ly774w7tqoaoyaro4psxpnimic2zoxq",
+  "nsx_edge_uplink2_vlan_id": "ocid1.vlan.oc1.ap-tokyo-1.amaaaaaap77apcqahtc3pprg2fn6ywdn35v4cbwd2somqupvryr6a46il35a",
+  "nsx_edge_uplink_ip_id": "ocid1.privateip.oc1.ap-tokyo-1.abxhiljr266zryv656rgd3nm3c5iajy4howzwuxof5zv7md4vr5lx7x7kf5a",
+  "nsx_edge_v_tep_vlan_id": "ocid1.vlan.oc1.ap-tokyo-1.amaaaaaap77apcqapl223wzwhhxeepzaoivqjbzaar4rtfimb5b2zpv7vvaq",
+  "nsx_manager_fqdn": "nsx-ocvs-demo.sddc.nrt.oci.oraclecloud.com",
+  "nsx_manager_initial_password": "Vdt.2cAtHGt13n479Gur",
+  "nsx_manager_private_ip_id": "ocid1.privateip.oc1.ap-tokyo-1.abxhiljr3ulzaxka3s6wwddszedm4arkz4b4askpnil723p5gmsjaxk54g5q",
+  "nsx_manager_username": "admin",
+  "nsx_overlay_segment_name": "workload",
+  "nsx_v_tep_vlan_id": "ocid1.vlan.oc1.ap-tokyo-1.amaaaaaap77apcqadva54jsgslfzuepgkjppengt5w7ky6zn4bfvmmif7nqq",
+  "provisioning_subnet_id": "ocid1.subnet.oc1.ap-tokyo-1.aaaaaaaar7lgqa6ooaguul4cksl7dotewnqmuni3rx5qj3rw6xdgjskydwga",
+  "provisioning_vlan_id": "ocid1.vlan.oc1.ap-tokyo-1.amaaaaaap77apcqafvac4gxm4jvhqgz326ub2dxuaubmaiet2pzdy3s27h2q",
+  "replication_vlan_id": "ocid1.vlan.oc1.ap-tokyo-1.amaaaaaap77apcqaitwwxziiyjhl66icmi3xan2uysifef6o7kpief2bxogq",
+  "ssh_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAhybOFQuRQ/2LMndOckLkG7THfI2WbY0iM7nniGNctQoghial87fE6GmUupbLE+MX0u4apdGInpf0+7l+6xeGRmv3X6lzesOgbULkUKvdxum1NT2EVATp/8HkJSVWBszcdr3RezDMWoiT+JgAnL56BxGKmFm0Hi2l89+rLyRca5uc5SHMrZFi7wlSz5lL8RcZwWuhajWPPEmBbhl+gDJAQ7HAkYjnehMCbrmBu6qO7nkOsZ7KnG5BmVl91K5SFRAo3MRuFVPgtZvuW4VGd+rsL23aVb1CFvgx04DOC+sjvwNSK9ymAJmMGZV58+UgYbkz+7qKoJO+iwBs47RfPmxFsQ== rsa-key-20210630",
+  "time_created": "2021-06-29T08:30:30.587000+00:00",
+  "time_hcx_billing_cycle_end": null,
+  "time_hcx_license_status_updated": "2021-07-29T07:38:56.610000+00:00",
+  "time_updated": "2021-07-29T07:38:56.610000+00:00",
+  "vcenter_fqdn": "vcenter-ocvs-demo.sddc.nrt.oci.oraclecloud.com",
+  "vcenter_initial_password": "Vdt.2cAtHGt13n479Gur",
+  "vcenter_private_ip_id": "ocid1.privateip.oc1.ap-tokyo-1.abxhiljreqpz452g7ezv7v5didftqcan7igyyy3wuvktqwokbljjfcmgjk2a",
+  "vcenter_username": "administrator@vsphere.local",
+  "vmotion_vlan_id": "ocid1.vlan.oc1.ap-tokyo-1.amaaaaaap77apcqa7jevjzxr2qkhocitp4tgfin7erar46tvs4kiwdjz7mjq",
+  "vmware_software_version": "7.0 update 2",
+  "vsan_vlan_id": "ocid1.vlan.oc1.ap-tokyo-1.amaaaaaap77apcqamsp25ey5e4kqxnioqzwpwhitaaltgz32ugwgyjtie3ja",
+  "vsphere_vlan_id": "ocid1.vlan.oc1.ap-tokyo-1.amaaaaaap77apcqapsfb3bsusyt3cxvioascjgsqclxnkj4qhb45ofs26qta",
+  "workload_network_cidr": "172.0.0.0/24"
+}
