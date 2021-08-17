@@ -1,3 +1,6 @@
+
+#This is the sample output of the script to get SDDC information using the python script
+
 {
   "compartment_id": "ocid1.compartment.oc1..aaaaaaaawqa7l34gmt6jqxxxawkkbh7upnsn5bntrphfxocost6jm56pj3jq",
   "compute_availability_domain": "ZVCk:AP-TOKYO-1-AD-1",
