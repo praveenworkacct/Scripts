@@ -1,0 +1,36 @@
+
+## Replace the provider block values according to your user settings
+
+
+provider "oci" {
+  tenancy_ocid = "ocid1.tenancy.oc1..aaaaaaaarjmezrk7x6sdytr4qbpp36qulkilvvjjsmjod7tgnjzaqaxekkva"
+  user_ocid = "ocid1.user.oc1..aaaaaaaa63sinkafc4ivrd4b7iz2ljaoi7v7m4mpsnckka3uvtxqbils43va" 
+  private_key_path = "C:/Users/opc/Desktop/Keys/praveen.bh.kumar-03-28-08-23.pem"
+  fingerprint = "35:08:62:ae:7c:f3:22:91:85:ee:2a:ab:f6:ec:98:ce"
+  region = "eu-frankfurt-1"
+}
+
+
+
+## Change the sddc_id to your SDDC OCID and change the OCVS-Demo1 to your SDDC name.
+
+data "oci_ocvp_sddc" "OCVS-Demo1" {
+    #Required
+    sddc_id = "ocid1.vmwaresddc.oc1.eu-frankfurt-1.amaaaaaa6drgbxiat6sqhq6r3edxklrbvoyta44qjzake7wkoxlmiqvmtb3q"
+}
+
+
+
+## Change the test_esxi_host to the name you wish to give for the new ESXi host you want to create
+## replace the sddc_id to the OCID of your SDDC
+
+resource "oci_ocvp_esxi_host" "test_esxi_host" {
+    #Required
+    sddc_id = "ocid1.vmwaresddc.oc1.eu-frankfurt-1.amaaaaaa6drgbxiat6sqhq6r3edxklrbvoyta44qjzake7wkoxlmiqvmtb3q"
+
+    #Optional
+    #defined_tags = {"Operations.CostCenter"= "42"}
+    #display_name = var.esxi_host_display_name
+    #freeform_tags = {"Department"= "Finance"}
+}
+ 
