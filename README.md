@@ -1,4 +1,4 @@
-These python scripts are used to manage the Oracle Cloud VMware Solution.
+These python & Terraform scripts are used to manage the Oracle Cloud VMware Solution.
 
 You can find the scripts to:-
 
